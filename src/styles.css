@@ -2,3 +2,29 @@
   font-family: sans-serif;
   text-align: center;
 }
+
+.user-block {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  width: 100%;
+  padding: 16px;
+}
+
+.user-info-wrapper {
+  display: flex;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+.empty-user-container {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+}
+
+/* move styles in UserInfo */
+table {
+  width: 100%;
+}
