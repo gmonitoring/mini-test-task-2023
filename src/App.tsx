@@ -1,5 +1,5 @@
-import React, { useCallback, useState } from "react";
 import "./styles.css";
+import React, { useCallback, useState } from "react";
 import { getUser, TUser } from "services/user";
 import { MainHeader } from "components/header/MainHeader";
 import { UserInfo } from "components/userInfo/UserInfo";
@@ -8,7 +8,7 @@ import { useThrottle } from "hooks/useThrottle";
 import { useCache } from "hooks/useCache";
 
 const getRandomId = (): number => {
-  return Math.floor(Math.random() * 11) + 1;
+  return Math.floor(Math.random() * 10) + 1;
 };
 
 export default function App(): React.ReactElement {
