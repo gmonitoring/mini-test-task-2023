@@ -4,7 +4,7 @@
 // Будет большим плюсом, если Вы сможете закэшировать получение случайного пользователя.
 // Укажите правильные типы.
 // По возможности пришлите Ваш вариант в https://codesandbox.io
-
+```
 import React, { useState } from "react";
 
 const URL = "https://jsonplaceholder.typicode.com/users";
@@ -88,3 +88,4 @@ function App(): JSX.Element {
 }
 
 export default App;
+```
